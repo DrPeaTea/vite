@@ -1,0 +1,28 @@
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.contact-header {
+  font-size: 100px;
+}
+.contact-philip {
+  border: solid 2px black;
+  padding: 40px;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact-angie {
+  border: solid 2px black;
+  padding: 40px;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.disable {
+  display: none;
+}
