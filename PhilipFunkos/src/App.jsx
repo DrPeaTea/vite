@@ -6,20 +6,26 @@ import Product from "./products";
 import Contact from "./contact";
 
 function App() {
-  let page1 = document.querySelector(".home-page");
-  let page2 = document.querySelector(".products-page");
-  let page3 = document.querySelector(".contact-page");
   function home() {
+    let page1 = document.querySelector(".home-page");
+    let page2 = document.querySelector(".products-page");
+    let page3 = document.querySelector(".contact-page");
     page1.classList.remove("disable");
     page2.classList.add("disable");
     page3.classList.add("disable");
   }
   function product() {
+    let page1 = document.querySelector(".home-page");
+    let page2 = document.querySelector(".products-page");
+    let page3 = document.querySelector(".contact-page");
     page2.classList.remove("disable");
     page1.classList.add("disable");
     page3.classList.add("disable");
   }
   function contact() {
+    let page1 = document.querySelector(".home-page");
+    let page2 = document.querySelector(".products-page");
+    let page3 = document.querySelector(".contact-page");
     page3.classList.remove("disable");
     page1.classList.add("disable");
     page2.classList.add("disable");
@@ -34,7 +40,7 @@ function App() {
           Products
         </div>
         <div className="contant" onClick={contact}>
-          Contant
+          Contact
         </div>
       </div>
       <Home />
