@@ -1,7 +1,7 @@
 import "./contact.css";
 export default function Contact() {
   return (
-    <div className="contact-page">
+    <div className="contact-page disable">
       <div className="contact-header">Contact Us</div>
       <div className="contact-philip">
         <div className="contant-name">Philip</div>

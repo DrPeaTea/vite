@@ -1,7 +1,7 @@
 import "./products.css";
 export default function product() {
   return (
-    <div className="products-page">
+    <div className="products-page disable">
       <div className="product-header">Rare Collectable Funkos</div>
       <div className="product-card">
         <div className="product-name">Tanjiro Glow In The Dark Chase</div>
