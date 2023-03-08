@@ -13,9 +13,10 @@ export default function product() {
           chance to own this rare and highly sought-after collectible!
         </div>
         <div className="product-price">$100</div>
+        {/* this img below dosent load */}
         <img
-          className="image"
-          src="https://images.hobbydb.com/processed_uploads/catalog_item_photo/https://images.hobbydb.com/processed_uploads/catalog_item_photo/catalog_item_photo/image/968784/Tanjiro_Kamado_%2528Hinokami_Kagura_Dance%2529_%2528Glow_in_the_Dark%2529_Vinyl_Art_Toys_662050fa-ee45-4256-a4f2-933a848d9b31.jpg/image/968782/Tanjiro_Kamado_%2528Hinokami_Kagura_Dance%2529_%2528Glow_in_the_Dark%2529_Vinyl_Art_Toys_25ccd4b8-99ec-48cb-bef2-3ea4fdc46ee2.JPG"
+          className="image 1"
+          src="https://images.hobbydb.com/processed_uploads/catalog_item_photo/catalog_item_photo/image/968784/Tanjiro_Kamado_%2528Hinokami_Kagura_Dance%2529_%2528Glow_in_the_Dark%2529_Vinyl_Art_Toys_662050fa-ee45-4256-a4f2-933a848d9b31.jpg"
           alt="Tanjiro"
         ></img>
       </div>
@@ -30,9 +31,10 @@ export default function product() {
           miss. Add it to your collection today!
         </div>
         <div className="product-price">$100</div>
+        {/* this img below also dosent load */}
         <img
-          className="image"
-          src="https://images.hobbydb.com/https://images.hobbydb.com/processed_uploads/catalog_item_photo/catalog_item_photo/image/1032711/Inosuke_Hashibira_%2528without_Mask%2529_%2528Flocked%2529_Vinyl_Art_Toys_43804742-5cfa-4789-9b10-31a16bac4657.jpg/catalog_item_photo/catalog_item_photo/image/968782/Tanjiro_Kamado_%2528Hinokami_Kagura_Dance%2529_%2528Glow_in_the_Dark%2529_Vinyl_Art_Toys_25ccd4b8-99ec-48cb-bef2-3ea4fdc46ee2.JPG"
+          className="image 2"
+          src="https://images.hobbydb.com/processed_uploads/catalog_item_photo/catalog_item_photo/image/1032711/Inosuke_Hashibira_%2528without_Mask%2529_%2528Flocked%2529_Vinyl_Art_Toys_43804742-5cfa-4789-9b10-31a16bac4657.jpg"
           alt="Inosuke"
         ></img>
       </div>
@@ -49,7 +51,7 @@ export default function product() {
         </div>
         <div className="product-price">$100</div>
         <img
-          className="image"
+          className="image 3"
           src="https://images.hobbydb.com/processed_uploads/catalog_item_photo/catalog_item_photo/image/1256867/Cheshire_Cat_Vinyl_Art_Toys_cbcaefd8-bc2e-410e-9ab8-3aa354a982d3.png"
           alt="Cheshire Cat"
         ></img>
